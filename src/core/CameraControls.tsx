@@ -18,7 +18,7 @@ import * as React from 'react'
 import { forwardRef, useMemo, useEffect } from 'react'
 import { extend, useFrame, useThree, ReactThreeFiber, EventManager } from '@react-three/fiber'
 
-import CameraControlsImpl from 'camera-controls'
+import CameraControlsImpl from '@srinivasprabhu/camera-controls'
 import { ForwardRefComponent } from '../helpers/ts-utils'
 
 export type CameraControlsProps = Omit<
